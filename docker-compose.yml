@@ -1,1 +1,4 @@
-#Begin compose file
+silk:
+  build: silk/
+  ports:
+    - "9500:9500"

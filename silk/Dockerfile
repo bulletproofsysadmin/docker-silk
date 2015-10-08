@@ -1,5 +1,5 @@
 FROM ubuntu:trusty
-MAINTAINER Andy Freeland <andy.freeland@redjack.com>
+MAINTAINER Bulletproof Sysadmin <the@bulletproofsysadmin.com>
 
 ENV LIBFIXBUF_VERSION 1.7.0
 ENV SILK_VERSION 3.10.2

@@ -1,0 +1,9 @@
+************************************************************
+Example site configuration files have been installed in
+    /usr/local/share/silk/*-silk.conf
+Choose the file that matches your packing logic plug-in
+and/or installation, rename it to silk.conf, customize it,
+and copy it to the root of the data directory:
+    /data/silk.conf
+************************************************************
+
