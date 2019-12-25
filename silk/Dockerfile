@@ -1,8 +1,8 @@
-FROM ubuntu:trusty
+FROM ubuntu:latest
 MAINTAINER Bulletproof Sysadmin <the@bulletproofsysadmin.com>
 
-ENV LIBFIXBUF_VERSION 1.7.0
-ENV SILK_VERSION 3.10.2
+ENV LIBFIXBUF_VERSION 2.4.0
+ENV SILK_VERSION 3.19.0
 
 # Install libfixbuf and SiLK dependencies
 RUN apt-get update \
@@ -11,13 +11,13 @@ RUN apt-get update \
     build-essential \
     pkg-config \
     libglib2.0-dev \
-    libssl-dev \
+    libssl1.0-dev \
     libpcre3-dev \
     zlib1g \
     bison \
     flex \
     libc-ares-dev \
-    libgnutls-dev \
+    libgnutls28-dev \
     libpcap0.8-dev \
     liblzo2-dev \
     libdbi-perl \
